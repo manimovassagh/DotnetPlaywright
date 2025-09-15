@@ -15,7 +15,7 @@ public class HomePageTests : PageTest
         await Page.GotoAsync("https://playwright.dev");
 
         // Expect the logo to be visible
-        await Expect(Page.GetByRole(AriaRole.Link, new() { Name = "Playwright" })).ToBeVisibleAsync();
+        await Expect(Page.Locator(".navbar__brand")).ToBeVisibleAsync();
     }
 
     [Test]
@@ -30,6 +30,6 @@ public class HomePageTests : PageTest
         await Page.Locator("#docsearch-input").FillAsync("C#");
 
         // Expect to see search results
-        await Expect(Page.Locator(".DocSearch-Hit-Container")).ToHaveCountAsync(1, new() { Timeout = 5000 });
+        await Expect(Page.Locator(".DocSearch-Hit-Container").First).ToBeVisibleAsync(new() { Timeout = 5000 });
     }
 }

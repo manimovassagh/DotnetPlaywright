@@ -1,0 +1,29 @@
+<test-run id="2" duration="7.076701" testcasecount="6" total="6" passed="6" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:44Z">
+  <test-suite type="Assembly" name="DotnetPlaywright.dll" fullname="/Users/mani/Documents/Projects/DotnetPlaywright/bin/Debug/net10.0/DotnetPlaywright.dll" total="6" passed="6" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="7.076701">
+    <test-suite type="TestSuite" name="PlaywrightTests" fullname="PlaywrightTests" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.523446">
+      <test-suite type="TestFixture" name="ExampleTest" fullname="PlaywrightTests.ExampleTest" classname="PlaywrightTests.ExampleTest" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.523446">
+        <test-case name="GetStartedLink" fullname="PlaywrightTests.ExampleTest.GetStartedLink" methodname="GetStartedLink" classname="ExampleTest" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.247553" asserts="0" seed="2115681512" />
+        <test-case name="HasTitle" fullname="PlaywrightTests.ExampleTest.HasTitle" methodname="HasTitle" classname="ExampleTest" result="Passed" start-time="2025-09-15T19:17:43Z" end-time="2025-09-15T19:17:43Z" duration="0.275893" asserts="0" seed="1312324788" />
+      </test-suite>
+    </test-suite>
+    <test-suite type="TestSuite" name="PlaywrightTests" fullname="PlaywrightTests" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.179446">
+      <test-suite type="TestSuite" name="SmokeTests" fullname="PlaywrightTests.SmokeTests" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.179446">
+        <test-suite type="TestFixture" name="SmokeTest1" fullname="PlaywrightTests.SmokeTests.SmokeTest1" classname="PlaywrightTests.SmokeTests.SmokeTest1" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.179446">
+          <test-case name="SmokeTest_GetStartedLink" fullname="PlaywrightTests.SmokeTests.SmokeTest1.SmokeTest_GetStartedLink" methodname="SmokeTest_GetStartedLink" classname="SmokeTest1" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="1.742298" asserts="0" seed="1999233419" />
+          <test-case name="SmokeTest_HasTitle" fullname="PlaywrightTests.SmokeTests.SmokeTest1.SmokeTest_HasTitle" methodname="SmokeTest_HasTitle" classname="SmokeTest1" result="Passed" start-time="2025-09-15T19:17:43Z" end-time="2025-09-15T19:17:43Z" duration="0.437148" asserts="0" seed="1960397103" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="TestSuite" name="PlaywrightTests" fullname="PlaywrightTests" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.373809">
+      <test-suite type="TestSuite" name="SmokeTests" fullname="PlaywrightTests.SmokeTests" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.373809">
+        <test-suite type="TestSuite" name="HomePage" fullname="PlaywrightTests.SmokeTests.HomePage" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.373809">
+          <test-suite type="TestFixture" name="HomePageTests" fullname="PlaywrightTests.SmokeTests.HomePage.HomePageTests" classname="PlaywrightTests.SmokeTests.HomePage.HomePageTests" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:43Z" duration="2.373809">
+            <test-case name="HomePage_HasLogo" fullname="PlaywrightTests.SmokeTests.HomePage.HomePageTests.HomePage_HasLogo" methodname="HomePage_HasLogo" classname="HomePageTests" result="Passed" start-time="2025-09-15T19:17:41Z" end-time="2025-09-15T19:17:42Z" duration="1.520664" asserts="0" seed="396767207" />
+            <test-case name="HomePage_SearchFunctionality" fullname="PlaywrightTests.SmokeTests.HomePage.HomePageTests.HomePage_SearchFunctionality" methodname="HomePage_SearchFunctionality" classname="HomePageTests" result="Passed" start-time="2025-09-15T19:17:42Z" end-time="2025-09-15T19:17:43Z" duration="0.853145" asserts="0" seed="1149462310" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
