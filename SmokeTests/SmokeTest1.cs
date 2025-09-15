@@ -19,6 +19,7 @@ public class SmokeTest1 : PageTest
     }
 
     [Test]
+    [Category("Mani")]
     public async Task SmokeTest_GetStartedLink()
     {
         await Page.GotoAsync("https://playwright.dev");
