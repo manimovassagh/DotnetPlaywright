@@ -1,16 +1,16 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
 
-namespace PlaywrightTests;
+namespace PlaywrightTests.SmokeTests;
 
 [Parallelizable(ParallelScope.Self)]
 [TestFixture]
-public class ExampleTest : PageTest
+public class SmokeTest1 : PageTest
 {
     [Test]
-    public async Task HasTitle()
+    public async Task SmokeTest_HasTitle()
     {
         await Page.GotoAsync("https://playwright.dev");
 
@@ -19,7 +19,7 @@ public class ExampleTest : PageTest
     }
 
     [Test]
-    public async Task GetStartedLink()
+    public async Task SmokeTest_GetStartedLink()
     {
         await Page.GotoAsync("https://playwright.dev");
 
